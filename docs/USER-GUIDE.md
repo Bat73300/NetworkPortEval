@@ -46,7 +46,7 @@ Use the optional [endpoint catalogs](ENDPOINT-CATALOG.md) for Apple, Adobe or Ja
 
 ## Privacy
 
-NetworkPortEval has no account, advertising, analytics or telemetry. Reports and settings stay on your Mac. Public checks contact Google, Apple and api.ipify.org only when you choose them. See the [privacy policy](https://bat73300.github.io/NetworkPortEval/privacy/).
+NetworkPortEval has no account, advertising, analytics or telemetry. Reports and settings stay on your Mac. Public checks contact Google, Apple and api.ipify.org only when you choose them. See the [privacy policy](https://github.com/Bat73300/NetworkPortEval/blob/main/docs/privacy.md).
 
 ## Need help?
 

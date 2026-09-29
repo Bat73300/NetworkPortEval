@@ -4,7 +4,7 @@
 
 NetworkPortEval is a macOS network diagnostics utility for everyone: an IT team can prepare a ready-to-run test template for a colleague, while support teams and network specialists can build and investigate their own test plans. Run the checks you are authorized to perform, then return a clear report to your IT team by email.
 
-[Download the notarized macOS build](https://github.com/Bat73300/NetworkPortEval/releases/tag/v0.1.0-test.5) · [Privacy policy](https://bat73300.github.io/NetworkPortEval/privacy/) · [Quick user guide](docs/USER-GUIDE.md) · [Beginner PDF guide](output/pdf/NetworkPortEval-Quick-User-Guide.pdf) · [User guides](docs/user/) · [Endpoint catalogs](docs/ENDPOINT-CATALOG.md)
+[Download the notarized macOS build](https://github.com/Bat73300/NetworkPortEval/releases/tag/v0.1.0-test.5) · [Privacy policy](https://github.com/Bat73300/NetworkPortEval/blob/main/docs/privacy.md) · [Quick user guide](docs/USER-GUIDE.md) · [Beginner PDF guide](output/pdf/NetworkPortEval-Quick-User-Guide.pdf) · [User guides](docs/user/) · [Endpoint catalogs](docs/ENDPOINT-CATALOG.md)
 
 ![NetworkPortEval key features](docs/assets/networkporteval-features.png)
 
@@ -76,7 +76,7 @@ Only test destinations you are authorized to assess. TCP open means a connection
 
 NetworkPortEval has no account, advertising, analytics or telemetry. Settings, templates, contacts and reports are stored locally. Reports can contain sensitive network metadata, so review and redact them before sharing.
 
-Read the full [privacy policy](https://bat73300.github.io/NetworkPortEval/privacy/) and the [testing guide](TESTING.md).
+Read the full [privacy policy](https://github.com/Bat73300/NetworkPortEval/blob/main/docs/privacy.md) and the [testing guide](TESTING.md).
 
 ## Open source
 
