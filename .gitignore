@@ -1,0 +1,8 @@
+.DS_Store
+.build/
+NetworkPortEval.app/
+NetworkPortEval-MAS.app/
+NetworkPortEval-macOS.zip
+*.xcuserstate
+DerivedData/
+.swiftpm/

@@ -1,0 +1,2 @@
+name,comment,category,host,port,protocol,payload_hex
+Cloudflare DNS UDP,Single DNS query used to verify UDP responses in the experimental macOS App Sandbox build.,Sandbox test,1.1.1.1,53,UDP,123401000001000000000000076578616d706c6503636f6d0000010001
