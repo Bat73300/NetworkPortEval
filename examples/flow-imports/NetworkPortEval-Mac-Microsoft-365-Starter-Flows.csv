@@ -1,0 +1,7 @@
+name,comment,category,host,port,protocol,payload_hex
+Microsoft 365 - Office portal,Microsoft 365 web portal starter check.,Microsoft 365 Common,www.office.com,443,HTTPS,
+Microsoft 365 - Sign-in,Microsoft identity sign-in starter check.,Microsoft 365 Common,login.microsoftonline.com,443,HTTPS,
+Microsoft 365 - Graph,Microsoft Graph API endpoint starter check.,Microsoft 365 Common,graph.microsoft.com,443,HTTPS,
+Microsoft 365 - Outlook,Exchange Online and Outlook web starter check.,Exchange Online,outlook.office.com,443,HTTPS,
+Microsoft 365 - Teams,Microsoft Teams web service starter check.,Microsoft Teams,teams.microsoft.com,443,HTTPS,
+Microsoft 365 - SharePoint,SharePoint Online starter check. Tenant-specific SharePoint hosts must be added separately.,SharePoint Online,sharepoint.com,443,HTTPS,
