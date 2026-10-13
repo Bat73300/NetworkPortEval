@@ -17,7 +17,9 @@ After installation, look for this NetworkPortEval icon in **Applications**, Laun
 </p>
 
 
-> **Current release:** `v0.1.0-test.5` · macOS 26 or later · Developer ID signed and Apple notarized. The Mac App Store build `1.0 (4)` is currently under Apple review.
+> **Current release:** `v0.1.0-test.5` · macOS 26 or later · Developer ID signed and Apple notarized.
+>
+> **Mac App Store:** NetworkPortEval `1.0 (4)` is now publicly available. [Download NetworkPortEval on the Mac App Store](https://apps.apple.com/fr/app/networkporteval/id6817115320?mt=12).
 
 ## Why NetworkPortEval
 
