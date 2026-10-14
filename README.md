@@ -20,6 +20,36 @@ After installation, look for this NetworkPortEval icon in **Applications**, Laun
 >
 > **Mac App Store:** NetworkPortEval `1.0 (4)` is now publicly available. [Download NetworkPortEval on the Mac App Store](https://apps.apple.com/fr/app/networkporteval/id6817115320?mt=12).
 
+## Mac App Store
+
+NetworkPortEval is a free Mac utility for checking network connectivity and producing clear, shareable reports.
+
+### Commercial description
+
+> Check your network connectivity in seconds and share clear reports with your team or contacts.
+>
+> NetworkPortEval helps anyone check network connectivity to Internet, LAN, TCP, UDP and HTTPS destinations. Choose a test template, run the requested checks and review the results in a clear interface.
+>
+> Reports can be exported as PDF, CSV, TXT or JSON files, or prepared for sending by email. Tests are started by the user.
+>
+> Templates, results and settings are stored locally on the computer. The app requires no account, external NetworkPortEval server or external NetworkPortEval service. Everything stays local.
+
+### App Store information
+
+| Item | Details |
+| --- | --- |
+| Subtitle | Network checks for everyone |
+| Platform | Mac |
+| Price | Free |
+| Category | Utilities |
+| Compatibility | macOS 26.0 or later; Mac with Apple M1 chip or later |
+| Size | 2.3 MB |
+| Languages | English and 7 more |
+| Age rating | 4+ |
+| Developer | BAPTISTE CRESTANI |
+| Privacy disclosure | The developer does not collect any data from this app |
+| Privacy policy | [Read the privacy policy](https://bat73300.github.io/NetworkPortEval/privacy/) |
+
 ## Why NetworkPortEval
 
 - **Simple for anyone to run.** Open the template prepared by your IT team, review the selected destinations and click Run. No networking expertise is required.
