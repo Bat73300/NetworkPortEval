@@ -1,10 +1,10 @@
-# Nouveau modèle vierge
+# Blank template
 
-1. Ouvrir **Modèles**, puis cliquer sur **Nouveau modèle**.
-2. Saisir un nom unique et cliquer sur **Créer**.
-3. Dans le modèle vide, cliquer sur **Ajouter un test** (ou **Ajouter un flux** dans la barre d’actions).
-4. Renseigner le nom, la destination, le port et le protocole, puis enregistrer.
+1. Open **Templates**, then click **New template**.
+2. Enter a unique name and click **Create**.
+3. In the empty template, click **Add test** (or **Add flow** in the action bar).
+4. Enter the name, destination, port and protocol, then save.
 
-Le modèle est enregistré dès sa création. Les ajouts et modifications de tests sont sauvegardés automatiquement. Un modèle vide reste vide après relance ; aucun test d’exemple n’est ajouté. Les modèles existants restent inchangés. La création est désactivée pendant l’exécution ou la finalisation des tests.
+The template is saved as soon as it is created. Test additions and changes are saved automatically. An empty template stays empty after relaunch; no sample test is added. Existing templates are unchanged. Creation is disabled while tests are running or finalizing.
 
-Le nom doit contenir entre 1 et 100 caractères après suppression des espaces en début et fin. Les doublons sont refusés sans tenir compte de la casse.
+The name must contain 1 to 100 characters after leading and trailing whitespace is removed. Duplicate names are rejected without regard to letter case.
