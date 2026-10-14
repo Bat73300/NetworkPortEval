@@ -1,11 +1,11 @@
-# Importer des rapports CSV
+# Import CSV reports
 
-Dans **Tous les rapports**, utiliser **Importer des rapports…** et sélectionner un ou plusieurs CSV exportés par NetworkPortEval. Le champ **Ordinateur source (facultatif)** s’applique aux fichiers sélectionnés.
+In **All reports**, choose **Import reports…** and select one or more CSV files exported by NetworkPortEval. The **Source computer (optional)** field applies to the selected files.
 
-Les rapports sont enregistrés dans le dossier de rapports courant. Le badge **Importé** distingue leurs résultats des tests locaux. La vue d’ensemble présente le fichier source, la date d’import, le nom d’ordinateur renseigné et les métadonnées réseau originales. L’import ne lance aucun test réseau.
+Reports are saved in the current reports folder. The **Imported** badge distinguishes their results from local tests. The overview shows the source file, import date, entered computer name and original network metadata. Importing a report never starts a network test.
 
-Les CSV historiques anglais ou français sont acceptés. Les statuts traduits dans les langues prises en charge sont normalisés. Les nouveaux CSV comportent un identifiant de rapport et une version de format. Les doublons sont détectés par cet identifiant ou, pour les anciens fichiers, par l’empreinte du contenu CSV normalisé. Deux exports différents d’un ancien rapport sans identifiant peuvent être considérés comme distincts.
+Historical English and French CSV files are accepted. Translated statuses in supported languages are normalized. New CSV files contain a report identifier and format version. Duplicates are detected by that identifier or, for older files, by the fingerprint of normalized CSV content. Two different exports of an older report without an identifier may be treated as distinct.
 
-Limites : 5 Mo et 10 000 lignes de résultats par fichier. Un fichier invalide n’est pas partiellement enregistré ; lors d’une sélection multiple, les autres fichiers valides peuvent être importés. Les modèles de flux ne sont pas des rapports et sont refusés ici.
+Limits are 5 MB and 10,000 result rows per file. An invalid file is not partially saved; when multiple files are selected, other valid files can still be imported. Flow templates are not reports and are rejected here.
 
-Le format historique contient du contexte réseau agrégé et un résumé textuel des contrôles Internet. Ces informations sont conservées dans la provenance, sans inventer des observations réseau par tentative. Les noms et commentaires du rapport original ne sont pas traduits. Les métadonnées source sont conservées lors du réexport CSV, PDF, TXT et JSON.
+The historical format contains aggregated network context and a text summary of Internet checks. This information is preserved in the provenance without inventing per-attempt network observations. Names and comments from the original report are not translated. Source metadata is preserved when exporting again to CSV, PDF, TXT or JSON.
