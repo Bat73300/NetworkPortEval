@@ -24,6 +24,9 @@ After installation, look for this NetworkPortEval icon in **Applications**, Laun
 
 NetworkPortEval is a free Mac utility for checking network connectivity and producing clear, shareable reports.
 
+![NetworkPortEval on the Mac App Store](docs/assets/NetworkPortEval-V2-AppStore-Mac-2880x1800.png)
+
+
 ### Commercial description
 
 > Check your network connectivity in seconds and share clear reports with your team or contacts.
