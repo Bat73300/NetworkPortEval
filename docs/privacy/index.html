@@ -1,27 +1,192 @@
 <!doctype html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>NetworkPortEval — Politique de confidentialité</title>
+  <title>NetworkPortEval — Privacy Policy</title>
   <style>
-    body { max-width: 760px; margin: 3rem auto; padding: 0 1.25rem; font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #172033; }
-    h1 { line-height: 1.2; } h2 { margin-top: 2rem; }
-    .muted { color: #5f6b7a; } a { color: #06c; }
+    :root { color-scheme: light dark; }
+    body { max-width: 860px; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: CanvasText; background: Canvas; }
+    header { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: 2.5rem; padding-bottom: 1rem; border-bottom: 1px solid color-mix(in srgb, CanvasText 18%, transparent); }
+    .brand { font-weight: 700; letter-spacing: -0.02em; }
+    label { font-size: .9rem; font-weight: 600; }
+    select { margin-left: .45rem; padding: .45rem .65rem; border: 1px solid color-mix(in srgb, CanvasText 25%, transparent); border-radius: .55rem; background: Canvas; color: CanvasText; font: inherit; }
+    h1 { line-height: 1.2; letter-spacing: -0.025em; margin: 0 0 .7rem; }
+    h2 { margin-top: 2rem; line-height: 1.25; }
+    .muted { color: color-mix(in srgb, CanvasText 65%, transparent); }
+    a { color: LinkText; }
+    article { display: none; }
+    article.active { display: block; }
+    @media (max-width: 560px) { header { align-items: flex-start; flex-direction: column; } select { margin-left: 0; } }
   </style>
 </head>
 <body>
-  <h1>NetworkPortEval — Politique de confidentialité</h1>
-  <p class="muted">Effective date: 28 septembre 2026</p>
-  <p>NetworkPortEval est un outil macOS de diagnostic de connectivité réseau publié par BC performances (Baptiste CRESTANI).</p>
-  <h2>Données conservées sur le Mac</h2>
-  <p>L’application conserve localement les réglages, modèles, contacts email et rapports. Les rapports peuvent contenir des noms de destination et ports, résultats, dates, adresses IP locales, adresse MAC de l’interface, informations d’interface et de VPN, serveurs DNS configurés, détails de certificats HTTPS et adresse IP publique. Les rapports enregistrés et le carnet d’adresses ne sont pas envoyés à BC performances.</p>
-  <h2>Requêtes réseau</h2>
-  <p>Avant un rapport manuel, l’utilisateur peut inclure ou ignorer les contrôles facultatifs vers Google, Apple et ipify. Ces services reçoivent l’adresse IP publique et les métadonnées normales de connexion. Les destinations sélectionnées reçoivent le trafic nécessaire au test TCP, UDP ou HTTPS. Utilisez l’application uniquement sur des destinations que vous êtes autorisé à tester.</p>
-  <h2>Partage et suppression</h2>
-  <p>L’application n’a ni compte, ni publicité, ni analytics, ni télémétrie. Les rapports et exports ne sont pas chiffrés par l’application. L’utilisateur contrôle ses fichiers, sauvegardes et partages. Les rapports et contacts peuvent être supprimés dans l’application ; les exports et sauvegardes doivent être supprimés séparément.</p>
-  <p>Lorsqu’un rapport est envoyé par email, l’application remet les destinataires et les fichiers CSV/PDF au service de composition email de macOS. L’utilisateur vérifie et envoie le message dans son logiciel de messagerie.</p>
-  <h2>Contact</h2>
-  <p>Questions : <a href="mailto:bcperf@gmail.com">bcperf@gmail.com</a>.</p>
+  <header>
+    <div class="brand">NetworkPortEval</div>
+    <div>
+      <label id="language-label" for="language">Language</label>
+      <select id="language" aria-label="Language">
+        <option value="en">English</option>
+        <option value="fr">Français</option>
+        <option value="de">Deutsch</option>
+        <option value="it">Italiano</option>
+        <option value="es">Español</option>
+        <option value="pt">Português</option>
+        <option value="zh">中文</option>
+        <option value="ja">日本語</option>
+      </select>
+    </div>
+  </header>
+
+  <article data-lang="en">
+    <h1>NetworkPortEval — Privacy Policy</h1>
+    <p class="muted">Effective date: September 28, 2026</p>
+    <p>NetworkPortEval is a macOS network connectivity diagnostic tool published by BC performances (Baptiste CRESTANI).</p>
+    <h2>Data stored on your Mac</h2>
+    <p>The app stores settings, templates, email contacts and reports locally. Reports may contain destination names and ports, results, dates, local IP addresses, the interface MAC address, interface and VPN information, configured DNS servers, HTTPS certificate details and the public IP address. Saved reports and the address book are not sent to BC performances.</p>
+    <h2>Network requests</h2>
+    <p>Before a manual report, you can include or skip optional checks to Google, Apple and ipify. These services receive your public IP address and normal connection metadata. Selected destinations receive the traffic required for the TCP, UDP or HTTPS test. Use the app only on destinations you are authorized to test.</p>
+    <h2>Sharing and deletion</h2>
+    <p>The app has no account, advertising, analytics or telemetry. Reports and exports are not encrypted by the app. You control your files, backups and sharing. Reports and contacts can be deleted in the app; exports and backups must be deleted separately.</p>
+    <p>When you send a report by email, the app hands the recipients and CSV/PDF files to the macOS email composition service. You review and send the message in your mail app.</p>
+    <h2>Contact</h2>
+    <p>Questions: <a href="mailto:bcperf@gmail.com">bcperf@gmail.com</a>.</p>
+  </article>
+
+  <article data-lang="fr">
+    <h1>NetworkPortEval — Politique de confidentialité</h1>
+    <p class="muted">Date d’effet : 28 septembre 2026</p>
+    <p>NetworkPortEval est un outil macOS de diagnostic de connectivité réseau publié par BC performances (Baptiste CRESTANI).</p>
+    <h2>Données conservées sur le Mac</h2>
+    <p>L’application conserve localement les réglages, modèles, contacts email et rapports. Les rapports peuvent contenir des noms de destination et ports, résultats, dates, adresses IP locales, l’adresse MAC de l’interface, des informations d’interface et de VPN, les serveurs DNS configurés, des détails de certificats HTTPS et l’adresse IP publique. Les rapports enregistrés et le carnet d’adresses ne sont pas envoyés à BC performances.</p>
+    <h2>Requêtes réseau</h2>
+    <p>Avant un rapport manuel, l’utilisateur peut inclure ou ignorer les contrôles facultatifs vers Google, Apple et ipify. Ces services reçoivent l’adresse IP publique et les métadonnées normales de connexion. Les destinations sélectionnées reçoivent le trafic nécessaire au test TCP, UDP ou HTTPS. Utilisez l’application uniquement sur des destinations que vous êtes autorisé à tester.</p>
+    <h2>Partage et suppression</h2>
+    <p>L’application n’a ni compte, ni publicité, ni analytics, ni télémétrie. Les rapports et exports ne sont pas chiffrés par l’application. L’utilisateur contrôle ses fichiers, sauvegardes et partages. Les rapports et contacts peuvent être supprimés dans l’application ; les exports et sauvegardes doivent être supprimés séparément.</p>
+    <p>Lorsqu’un rapport est envoyé par email, l’application remet les destinataires et les fichiers CSV/PDF au service de composition email de macOS. L’utilisateur vérifie et envoie le message dans son logiciel de messagerie.</p>
+    <h2>Contact</h2>
+    <p>Questions : <a href="mailto:bcperf@gmail.com">bcperf@gmail.com</a>.</p>
+  </article>
+
+  <article data-lang="de">
+    <h1>NetworkPortEval — Datenschutzrichtlinie</h1>
+    <p class="muted">Gültig ab: 28. September 2026</p>
+    <p>NetworkPortEval ist ein macOS-Werkzeug zur Diagnose der Netzwerkverbindung, veröffentlicht von BC performances (Baptiste CRESTANI).</p>
+    <h2>Auf dem Mac gespeicherte Daten</h2>
+    <p>Die App speichert Einstellungen, Vorlagen, E-Mail-Kontakte und Berichte lokal. Berichte können Zielnamen und Ports, Ergebnisse, Zeitpunkte, lokale IP-Adressen, die MAC-Adresse der Schnittstelle, Schnittstellen- und VPN-Informationen, konfigurierte DNS-Server, Angaben zu HTTPS-Zertifikaten und die öffentliche IP-Adresse enthalten. Gespeicherte Berichte und das Adressbuch werden nicht an BC performances gesendet.</p>
+    <h2>Netzwerkanfragen</h2>
+    <p>Vor einem manuellen Bericht können optionale Prüfungen bei Google, Apple und ipify ein- oder ausgeschlossen werden. Diese Dienste erhalten Ihre öffentliche IP-Adresse und übliche Verbindungsmetadaten. Ausgewählte Ziele erhalten den für den TCP-, UDP- oder HTTPS-Test erforderlichen Datenverkehr. Testen Sie nur Ziele, für die Sie dazu berechtigt sind.</p>
+    <h2>Weitergabe und Löschung</h2>
+    <p>Die App hat kein Konto, keine Werbung, keine Analyse und keine Telemetrie. Berichte und Exporte werden von der App nicht verschlüsselt. Sie kontrollieren Ihre Dateien, Sicherungen und Freigaben. Berichte und Kontakte können in der App gelöscht werden; Exporte und Sicherungen müssen separat gelöscht werden.</p>
+    <p>Beim Versand eines Berichts per E-Mail übergibt die App Empfänger und CSV/PDF-Dateien an den E-Mail-Verfassungsdienst von macOS. Sie prüfen und senden die Nachricht in Ihrer Mail-App.</p>
+    <h2>Kontakt</h2>
+    <p>Fragen: <a href="mailto:bcperf@gmail.com">bcperf@gmail.com</a>.</p>
+  </article>
+
+  <article data-lang="it">
+    <h1>NetworkPortEval — Informativa sulla privacy</h1>
+    <p class="muted">Data di entrata in vigore: 28 settembre 2026</p>
+    <p>NetworkPortEval è uno strumento macOS per la diagnosi della connettività di rete, pubblicato da BC performances (Baptiste CRESTANI).</p>
+    <h2>Dati conservati sul Mac</h2>
+    <p>L’app conserva localmente impostazioni, modelli, contatti email e report. I report possono contenere nomi e porte delle destinazioni, risultati, date, indirizzi IP locali, l’indirizzo MAC dell’interfaccia, informazioni sull’interfaccia e sulla VPN, server DNS configurati, dettagli dei certificati HTTPS e l’indirizzo IP pubblico. I report salvati e la rubrica non vengono inviati a BC performances.</p>
+    <h2>Richieste di rete</h2>
+    <p>Prima di un report manuale, puoi includere o ignorare i controlli facoltativi verso Google, Apple e ipify. Questi servizi ricevono il tuo indirizzo IP pubblico e i normali metadati di connessione. Le destinazioni selezionate ricevono il traffico necessario per il test TCP, UDP o HTTPS. Usa l’app solo su destinazioni che sei autorizzato a testare.</p>
+    <h2>Condivisione ed eliminazione</h2>
+    <p>L’app non usa account, pubblicità, analisi o telemetria. I report e le esportazioni non sono cifrati dall’app. Sei tu a controllare file, backup e condivisioni. Report e contatti possono essere eliminati nell’app; esportazioni e backup devono essere eliminati separatamente.</p>
+    <p>Quando invii un report via email, l’app trasferisce destinatari e file CSV/PDF al servizio di composizione email di macOS. Controlli e invii il messaggio nella tua app di posta.</p>
+    <h2>Contatti</h2>
+    <p>Domande: <a href="mailto:bcperf@gmail.com">bcperf@gmail.com</a>.</p>
+  </article>
+
+  <article data-lang="es">
+    <h1>NetworkPortEval — Política de privacidad</h1>
+    <p class="muted">Fecha de entrada en vigor: 28 de septiembre de 2026</p>
+    <p>NetworkPortEval es una herramienta para macOS que diagnostica la conectividad de red, publicada por BC performances (Baptiste CRESTANI).</p>
+    <h2>Datos almacenados en el Mac</h2>
+    <p>La aplicación almacena localmente ajustes, plantillas, contactos de correo e informes. Los informes pueden contener nombres y puertos de destino, resultados, fechas, direcciones IP locales, la dirección MAC de la interfaz, información de la interfaz y de la VPN, servidores DNS configurados, detalles de certificados HTTPS y la dirección IP pública. Los informes guardados y la agenda no se envían a BC performances.</p>
+    <h2>Solicitudes de red</h2>
+    <p>Antes de un informe manual, puedes incluir u omitir comprobaciones opcionales hacia Google, Apple e ipify. Estos servicios reciben tu dirección IP pública y los metadatos habituales de conexión. Los destinos seleccionados reciben el tráfico necesario para la prueba TCP, UDP o HTTPS. Utiliza la aplicación solo con destinos que tengas autorización para probar.</p>
+    <h2>Compartición y eliminación</h2>
+    <p>La aplicación no tiene cuenta, publicidad, analítica ni telemetría. La aplicación no cifra los informes ni las exportaciones. Tú controlas tus archivos, copias de seguridad y comparticiones. Los informes y contactos se pueden eliminar en la aplicación; las exportaciones y copias de seguridad deben eliminarse por separado.</p>
+    <p>Al enviar un informe por correo, la aplicación entrega los destinatarios y los archivos CSV/PDF al servicio de composición de correo de macOS. Revisas y envías el mensaje en tu aplicación de correo.</p>
+    <h2>Contacto</h2>
+    <p>Preguntas: <a href="mailto:bcperf@gmail.com">bcperf@gmail.com</a>.</p>
+  </article>
+
+  <article data-lang="pt">
+    <h1>NetworkPortEval — Política de privacidade</h1>
+    <p class="muted">Data de entrada em vigor: 28 de setembro de 2026</p>
+    <p>NetworkPortEval é uma ferramenta macOS de diagnóstico de conectividade de rede, publicada pela BC performances (Baptiste CRESTANI).</p>
+    <h2>Dados armazenados no Mac</h2>
+    <p>A aplicação armazena localmente definições, modelos, contactos de email e relatórios. Os relatórios podem conter nomes e portas de destino, resultados, datas, endereços IP locais, o endereço MAC da interface, informações da interface e da VPN, servidores DNS configurados, detalhes de certificados HTTPS e o endereço IP público. Os relatórios guardados e o livro de endereços não são enviados para a BC performances.</p>
+    <h2>Pedidos de rede</h2>
+    <p>Antes de um relatório manual, pode incluir ou ignorar verificações opcionais para o Google, a Apple e o ipify. Estes serviços recebem o seu endereço IP público e os metadados normais da ligação. Os destinos selecionados recebem o tráfego necessário para o teste TCP, UDP ou HTTPS. Utilize a aplicação apenas em destinos que está autorizado a testar.</p>
+    <h2>Partilha e eliminação</h2>
+    <p>A aplicação não tem conta, publicidade, análise nem telemetria. Os relatórios e as exportações não são encriptados pela aplicação. O utilizador controla os seus ficheiros, cópias de segurança e partilhas. Os relatórios e contactos podem ser eliminados na aplicação; as exportações e cópias de segurança devem ser eliminadas separadamente.</p>
+    <p>Ao enviar um relatório por email, a aplicação entrega os destinatários e os ficheiros CSV/PDF ao serviço de composição de email do macOS. O utilizador revê e envia a mensagem na aplicação de email.</p>
+    <h2>Contacto</h2>
+    <p>Questões: <a href="mailto:bcperf@gmail.com">bcperf@gmail.com</a>.</p>
+  </article>
+
+  <article data-lang="zh">
+    <h1>NetworkPortEval — 隐私政策</h1>
+    <p class="muted">生效日期：2026年9月28日</p>
+    <p>NetworkPortEval 是由 BC performances（Baptiste CRESTANI）发布的 macOS 网络连接诊断工具。</p>
+    <h2>存储在 Mac 上的数据</h2>
+    <p>应用会在本地保存设置、模板、电子邮件联系人和报告。报告可能包含目标名称和端口、结果、日期、本地 IP 地址、接口 MAC 地址、接口和 VPN 信息、已配置的 DNS 服务器、HTTPS 证书详情以及公共 IP 地址。已保存的报告和地址簿不会发送给 BC performances。</p>
+    <h2>网络请求</h2>
+    <p>在手动生成报告前，用户可以选择包含或跳过向 Google、Apple 和 ipify 发起的可选检查。这些服务会收到公共 IP 地址和正常的连接元数据。选定的目标会收到 TCP、UDP 或 HTTPS 测试所需的流量。请仅测试您获授权测试的目标。</p>
+    <h2>共享与删除</h2>
+    <p>应用没有账户、广告、分析或遥测功能。报告和导出文件不会由应用加密。用户自行控制文件、备份和共享。报告和联系人可以在应用中删除；导出文件和备份需要单独删除。</p>
+    <p>通过电子邮件发送报告时，应用会将收件人和 CSV/PDF 文件交给 macOS 的邮件撰写服务。用户在邮件应用中检查并发送邮件。</p>
+    <h2>联系方式</h2>
+    <p>问题请联系：<a href="mailto:bcperf@gmail.com">bcperf@gmail.com</a>。</p>
+  </article>
+
+  <article data-lang="ja">
+    <h1>NetworkPortEval — プライバシーポリシー</h1>
+    <p class="muted">施行日：2026年9月28日</p>
+    <p>NetworkPortEval は、BC performances（Baptiste CRESTANI）が提供する macOS 用ネットワーク接続診断ツールです。</p>
+    <h2>Mac に保存されるデータ</h2>
+    <p>アプリは設定、テンプレート、メール連絡先、レポートを Mac にローカル保存します。レポートには、宛先名とポート、結果、日時、ローカル IP アドレス、インターフェースの MAC アドレス、インターフェースと VPN の情報、設定された DNS サーバー、HTTPS 証明書の詳細、公開 IP アドレスが含まれる場合があります。保存されたレポートとアドレス帳が BC performances に送信されることはありません。</p>
+    <h2>ネットワーク通信</h2>
+    <p>手動レポートの前に、Google、Apple、ipify への任意のチェックを含めるかスキップできます。これらのサービスには公開 IP アドレスと通常の接続メタデータが送信されます。選択した宛先には TCP、UDP、HTTPS テストに必要な通信が送られます。テストする権限のある宛先だけを使用してください。</p>
+    <h2>共有と削除</h2>
+    <p>アプリはアカウント、広告、分析、テレメトリを使用しません。レポートとエクスポートはアプリによって暗号化されません。ファイル、バックアップ、共有はユーザーが管理します。レポートと連絡先はアプリ内で削除できますが、エクスポートとバックアップは別途削除してください。</p>
+    <p>メールでレポートを送信すると、アプリは宛先と CSV/PDF ファイルを macOS のメール作成サービスに渡します。メールアプリで内容を確認して送信します。</p>
+    <h2>お問い合わせ</h2>
+    <p>お問い合わせ：<a href="mailto:bcperf@gmail.com">bcperf@gmail.com</a></p>
+  </article>
+
+  <script>
+    (function () {
+      var supported = ["en", "fr", "de", "it", "es", "pt", "zh", "ja"];
+      var labels = {
+        en: "Language", fr: "Langue", de: "Sprache", it: "Lingua",
+        es: "Idioma", pt: "Idioma", zh: "语言", ja: "言語"
+      };
+      var select = document.getElementById("language");
+      var label = document.getElementById("language-label");
+      function browserLanguage() {
+        var value = (navigator.language || "en").toLowerCase().split("-")[0];
+        return supported.indexOf(value) >= 0 ? value : "en";
+      }
+      function show(value) {
+        if (supported.indexOf(value) < 0) value = "en";
+        document.documentElement.lang = value;
+        select.value = value;
+        label.textContent = labels[value];
+        document.title = document.querySelector('article[data-lang="' + value + '"] h1').textContent;
+        document.querySelectorAll("article[data-lang]").forEach(function (article) {
+          article.classList.toggle("active", article.getAttribute("data-lang") === value);
+        });
+        try { localStorage.setItem("networkporteval-privacy-language", value); } catch (_) {}
+      }
+      var saved = null;
+      try { saved = localStorage.getItem("networkporteval-privacy-language"); } catch (_) {}
+      show(saved && supported.indexOf(saved) >= 0 ? saved : browserLanguage());
+      select.addEventListener("change", function () { show(select.value); });
+    }());
+  </script>
 </body>
 </html>
