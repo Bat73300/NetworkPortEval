@@ -16,7 +16,6 @@ After installation, look for this NetworkPortEval icon in **Applications**, Laun
   <img src="docs/assets/app-icon.png" alt="NetworkPortEval app icon" width="128">
 </p>
 
-
 > **Current release:** `v0.1.0-test.5` · macOS 26 or later · Developer ID signed and Apple notarized.
 >
 > **Mac App Store:** NetworkPortEval `1.0 (4)` is now publicly available. [Download NetworkPortEval on the Mac App Store](https://apps.apple.com/fr/app/networkporteval/id6817115320?mt=12).
@@ -78,7 +77,7 @@ Only test destinations you are authorized to assess. TCP open means a connection
 
 NetworkPortEval has no account, advertising, analytics or telemetry. Settings, templates, contacts and reports are stored locally. Reports can contain sensitive network metadata, so review and redact them before sharing.
 
-Read the full [privacy policy](https://github.com/Bat73300/NetworkPortEval/blob/main/docs/privacy.md) and the [testing guide](TESTING.md).
+Read the full [privacy policy](https://github.com/Bat73300/NetworkPortEval/blob/main/docs/privacy.md).
 
 ## Open source
 
